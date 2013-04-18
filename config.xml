@@ -4,10 +4,12 @@
 	id = "com.harabanar.TestApp"
 	version = "1.0.0">
 
+    <content src="index.html" />
+    
 	<name>TestApp</name>
 
 	<description>
-		A super simple test from adobe.com
+		A super simple test
 	</description>
 
 	<author href="http://www.harabanar.com"
@@ -21,4 +23,21 @@
 
 	<preference name="orientation" value="portrait" />
     <preference name="webviewbounce" value="false" />
+    
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableLocation" value="false" /><!-- DEPRECATED -->
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value=".25" />
+    <preference name="HideKeyboardFormAccessoryBar" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="KeyboardShrinksView" value="false" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="TopActivityIndicator" value="gray" />
+
 </widget>
