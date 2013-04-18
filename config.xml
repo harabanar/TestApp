@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
-	id = "com.harabanar.TestApp"
+	id = "N64Q4MS8FA.com.harabanar.TestApp"
 	version = "1.0.0">
 
 	<name>TestApp</name>
@@ -20,4 +20,5 @@
 	<feature name="http://api.phonegap.com/1.0/network"/>
 
 	<preference name="orientation" value="portrait" />
+    <preference name="webviewbounce" value="false" />
 </widget>
